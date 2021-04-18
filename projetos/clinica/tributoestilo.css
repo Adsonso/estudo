@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9aa1bb;
+}
+header .corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .corpo h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+header .corpo h4 {
+    color: white;    
+}
+.fotos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moldura {
+    display: block;
+    align-items: center;
+}
+.moldura h3, h4 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img {
+    max-width: 286px;
+    border: 10px solid white;
+    margin: 10px;
+    flex:1;
+}
+.historia h4{
+    margin: 10px;
+}
+.fatos li, b{
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 25px;       
+}
+.fatos ul{
+    padding: 13px;
+}
+.linha{
+    display: block;
+    width: 2px;
+    height: auto;
+    background-color: black;
+    margin-left: 40px;
+    color: #9aa1bb;
+}
+.fatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

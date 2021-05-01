@@ -74,6 +74,7 @@ form:hover{
 }
 .botoes{
     margin-top: 20px;
+    margin-bottom: 230px;
 }
 .botoes a {
     padding: 10px;
@@ -90,7 +91,19 @@ form:hover{
 }
 
 footer .pais {
-    background-color: chocolate;
+    background-color: #dfe1e5;
+    border-bottom: 1px solid #7075a3;
+    
+}
+.pais h2 {
+    padding: 10px;
+    margin: 5px;
+    color: #7075a3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 30px;
+    font-style: normal;
+    
 }
 .final{
     display: flex;
@@ -105,9 +118,8 @@ footer .pais {
     margin-right: 10px;
 }
 .final a{
-color: #7075a3;
+    color: #7075a3;
 }
 .final a:hover {
-    text-underline-position: auto;
-    
+    text-decoration: underline;
 }

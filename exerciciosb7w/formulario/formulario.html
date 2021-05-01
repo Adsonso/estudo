@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title> Página de teste</title>
+<link rel="stylesheet" href="estiloform.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+</head>
+
+<body> 
+    <form action="login.html" method="POST">
+        <label for="nome">
+            <div class="palavra">Nome Completo:</div>
+            <input type="text" name="nome"/>
+        </label>
+        <label for="date">
+            <div class="palavra">Data de Nascimento:</div>
+            <input type="date" name="nascimento"/>
+        </label>
+        <label for="sexo">
+            <div class="palavra">Sexo:</div>
+            <div class="contorno">
+            <input type="radio" name="sexo" />
+            <input type="radio" name="sexo" />
+            </div>
+        </label>
+        <label for="telefone">
+            <div class="palavra">Telefone:</div>
+            <input type="tel" name="telefone"/>
+        </label>        
+        <label for="posicao">
+            <div class="palavra">Posição</div>
+            <select name="posicao">
+                <option value="1"></option>
+                <option value="1">goleiro</option>
+                <option value="2">zagueiro</option>
+                <option value="3">lateral</option>
+                <option value="4">volante</option>
+                <option value="5">meio de campo</option>
+                <option value="6">atacante</option>
+            </select>
+        </label>
+        <label for="email">
+            <div class="palavra">Email:</div>
+            <input type="email" name="email" />
+        </label>
+        <label for="descricao">
+            <div class="palavra">Descrição:</div>
+            <textarea name="descricao"></textarea>
+        </label>
+
+        <label>
+            <input type="checkbox" name="termos"/>
+            declaro que todas as informações fornecidas sao verdadeiras e aceito os
+            <a href="termos.html" target="_blank"> termos de uso</a>
+        </label>
+        <input type="submit" value="enviar" />
+
+
+    </form>
+
+</body>
+</html>
